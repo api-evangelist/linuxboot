@@ -1,0 +1,47 @@
+aid: linuxboot
+name: LinuxBoot
+description: >-
+  LinuxBoot is a Linux Foundation firmware project aimed at replacing specific
+  firmware functionality like UEFI DXE with a Linux kernel and runtime. It
+  provides faster, more reliable, and more secure boot processes by leveraging
+  the well-tested Linux kernel for hardware initialization.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Firmware
+  - Boot
+  - Hardware
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/linuxboot/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: linuxboot:linuxboot-api
+    name: LinuxBoot API
+    description: >-
+      API for the LinuxBoot project, providing programmatic access to firmware
+      replacement tools and utilities for replacing UEFI DXE with Linux kernel
+      based boot processes.
+    humanURL: https://www.linuxboot.org/getting-started/
+    tags:
+      - Firmware
+      - Boot
+    properties:
+      - type: Documentation
+        url: https://www.linuxboot.org/getting-started/
+common:
+  - type: Documentation
+    name: LinuxBoot Documentation
+    description: Official documentation for LinuxBoot.
+    url: https://www.linuxboot.org/getting-started/
+  - type: GitHubOrg
+    name: LinuxBoot GitHub
+    description: Source code and repositories for LinuxBoot.
+    url: https://github.com/linuxboot
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
