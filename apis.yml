@@ -10,8 +10,8 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Firmware
   - Boot
+  - Firmware
   - Hardware
   - Linux Foundation
 created: '2026-03-16'
@@ -28,8 +28,8 @@ apis:
       based boot processes.
     humanURL: https://www.linuxboot.org/getting-started/
     tags:
-      - Firmware
       - Boot
+      - Firmware
     properties:
       - type: Documentation
         url: https://www.linuxboot.org/getting-started/
