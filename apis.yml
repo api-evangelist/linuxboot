@@ -57,6 +57,8 @@ apis:
       - type: SourceCode
         url: https://github.com/u-root/u-root
 common:
+  - type: DomainSecurity
+    url: security/linuxboot-domain-security.yml
   - type: Documentation
     name: LinuxBoot Book
     description: Official LinuxBoot project documentation and guide.
