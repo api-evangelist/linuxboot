@@ -69,6 +69,13 @@ apis:
       - type: SourceCode
         url: https://github.com/u-root/u-root
 common:
+  - type: IssueTracker
+    url: https://github.com/linuxboot/linuxboot/issues
+  - type: ContributionGuide
+    url: https://github.com/linuxboot/linuxboot/blob/main/CONTRIBUTING.md
+  - type: License
+    name: GPL-2.0
+    url: https://github.com/linuxboot/linuxboot/blob/main/LICENSE
   - type: DomainSecurity
     url: security/linuxboot-domain-security.yml
   - type: Documentation
