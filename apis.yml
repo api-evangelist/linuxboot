@@ -46,6 +46,10 @@ apis:
     tags:
       - Boot
       - Firmware
+      - Builds
+    tags_raw:
+      - Boot
+      - Firmware
       - Build
     properties:
       - type: Documentation
