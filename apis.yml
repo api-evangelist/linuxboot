@@ -8,6 +8,18 @@ description: >-
   components include u-root (the ramfs builder), the LinuxBoot build system,
   and the NERF (Non-Extensible Reduced Firmware) heritage from Google.
 type: Index
+deliveryModel:
+  model: self-hosted
+  license: GPL-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
